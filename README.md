@@ -126,6 +126,7 @@ Comparación desempeño vs. histórico.
 Sugerir cronograma ideal
 Genera propuesta fechas para nuevos proyectos.
 
+## Sección 3: 
 🤖 Agentes IA Multi-Agent System
 Monitoring Agent
 Detecta proyectos estancados.
@@ -141,10 +142,10 @@ Ejecuta secuencia completa multi-agente.
 
 Screenshots (opcional)
 Colocar imágenes en /screenshots/ y referenciar aquí:
+---
 
-
-Valor diferencial
-Funcionalidad	Incluido
+💎 Valor diferencial
+Funcionalidad	
 Data Science + pandas	✅
 Visualizaciones matplotlib	✅
 IA generativa OpenAI GPT	✅
@@ -153,7 +154,7 @@ Modo web Streamlit	✅
 Arquitectura multi-agente	✅
 Proyecto realista y ampliable	✅
 
-Créditos
+📢 Créditos
 Desarrollado por: Arturo Santiago
 Asesorado por: ChatGPT (IA asistente)
 Curso: Temas Selectos de Estadística / ITAM 2025
