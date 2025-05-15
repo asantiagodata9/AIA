@@ -69,11 +69,11 @@ streamlit run streamlit_demo.py
 🗂️ Estructura del proyecto
 ```swift
 /data/
-Proyectos CAPEX 2025.xlsx
+      Proyectos CAPEX 2025.xlsx
 /planner/
-(todos los módulos IA + Agentes)
+      (módulos IA + Agentes)
 /screenshots/
-(opcional: capturas para documentación)
+      (opcional: capturas para documentación)
 main_demo.py
 streamlit_demo.py
 requirements.txt
@@ -82,7 +82,9 @@ config.yaml.example
 .gitignore
 ```
 
-Descripción de módulos
+🎛️ Descripción de módulos
+
+# Sección 1:
 Reporte general
 Resumen proyectos: cantidad, monto total, días promedio.
 
@@ -104,6 +106,7 @@ Recursos asignados
 
 Complejidad obras
 
+# Sección 2:
 Análisis riesgo predictivo (IA)
 Predice probabilidad de riesgo en proyectos.
 
@@ -122,7 +125,7 @@ Comparación desempeño vs. histórico.
 Sugerir cronograma ideal
 Genera propuesta fechas para nuevos proyectos.
 
-Agentes IA Multi-Agent System
+🤖 Agentes IA Multi-Agent System
 Monitoring Agent
 Detecta proyectos estancados.
 
