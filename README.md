@@ -41,31 +41,33 @@ venv\Scripts\activate   # En Windows
 pip install -r requirements.txt
 ```
 
-Instalación
-git clone https://github.com/asantiagodata9/AIA.git
-cd AIA
-python -m venv venv
-venv\Scripts\activate (en Windows)
-pip install -r requirements.txt
 
 Crear archivo config.yaml:
-
+```yaml
 openai:
-api_key: TU_API_KEY_AQUI
+  api_key: TU_API_KEY_AQUI
+```
 
 Colocar dataset en:
+```
 data/Proyectos CAPEX 2025.xlsx
+```
 
-Cómo ejecutar
+🚀 Cómo ejecutar
 Modo consola:
 
+```bash
 python main_demo.py
+```
 
 Modo app web:
 
+```bash
 streamlit run streamlit_demo.py
+```
 
-Estructura del proyecto
+🗂️ Estructura del proyecto
+```swift
 /data/
 Proyectos CAPEX 2025.xlsx
 /planner/
@@ -78,6 +80,7 @@ requirements.txt
 README.md
 config.yaml.example
 .gitignore
+```
 
 Descripción de módulos
 Reporte general
