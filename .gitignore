@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Configuración personal
+config.yaml
+
+# Data privada
+data/Proyectos CAPEX 2025.xlsx
+
+# Entornos
+/.env/
+/env/
+/.venv/
+/venv/
