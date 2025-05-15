@@ -1,37 +1,45 @@
 # AIA
-Asistente IA para Planificación de Proyectos CAPEX
+# Asistente IA para Planificación de Proyectos CAPEX
+
+## 🎯 Descripción general
 Proyecto académico + prototipo real de Asistente IA + Multi-Agente para planificación, seguimiento y análisis de portafolios de proyectos de construcción CAPEX.
 Desarrollado en Python + IA Generativa + Data Science + Streamlit.
 
 Autor: Arturo Santiago
 
-Descripción general
 El sistema permite:
 
-Analizar portafolios de proyectos
-
-Generar reportes y alertas automáticas
-
-Visualizar cronogramas y gráficas clave
-
-Clasificar riesgos automáticamente
-
-Sugerir cronogramas ideales
-
-Desplegar agentes especializados para seguimiento
+- Analizar portafolios de proyectos
+- Generar reportes y alertas automáticas
+- Visualizar cronogramas y gráficas clave
+- Clasificar riesgos automáticamente
+- Sugerir cronogramas ideales
+- Desplegar agentes especializados para seguimiento
 
 Disponible en:
 
-Modo consola (main_demo.py)
+- Modo consola (`main_demo.py`)
+- Modo aplicación web (`streamlit_demo.py`)
 
-Modo aplicación web (streamlit_demo.py)
+---
 
-Requisitos
-Python 3.9 o superior
+## 💻 Requisitos
 
-Clave API OpenAI (en config.yaml)
+- Python 3.9 o superior
+- Clave API OpenAI (en `config.yaml`)
+- Librerías Python (instalar abajo)
 
-Librerías Python (instalar abajo)
+---
+
+## 📥 Instalación
+
+```bash
+git clone https://github.com/asantiagodata9/AIA.git
+cd AIA
+python -m venv venv
+venv\Scripts\activate   # En Windows
+pip install -r requirements.txt
+```
 
 Instalación
 git clone https://github.com/asantiagodata9/AIA.git
