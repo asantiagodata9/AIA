@@ -81,10 +81,11 @@ README.md
 config.yaml.example
 .gitignore
 ```
+---
 
 🎛️ Descripción de módulos
 
-# Sección 1:
+## Sección 1:
 Reporte general
 Resumen proyectos: cantidad, monto total, días promedio.
 
@@ -106,7 +107,7 @@ Recursos asignados
 
 Complejidad obras
 
-# Sección 2:
+## Sección 2:
 Análisis riesgo predictivo (IA)
 Predice probabilidad de riesgo en proyectos.
 
